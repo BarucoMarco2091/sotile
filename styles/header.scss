@@ -2,7 +2,7 @@
 @import '../styles/variables.scss';
 
 header {
-    background-color: $rosaAntigo;
+    background-color: $rosaAntigo !important;
     position: relative;
 
     nav {
@@ -87,16 +87,5 @@ header {
         height: 60dvh;
         object-fit: cover;
         filter: brightness(50%);
-    }
-
-    .hero {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        
-        h1 {
-            text-align: center;
-        }
     }
 }
