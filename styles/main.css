@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media screen and (max-width: 600px) {
+  nav {
+    display: flex !important;
+    padding: 1dvh 1dvh !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  #mobile_btn {
+    display: block !important;
+  }
+}
+@media (width >= 1024px) {
+  header {
+    position: relative;
+  }
+}
+@media (width >= 1024px) {
+  .hero {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+  }
+  .hero h1 {
+    text-align: center;
+    color: #F5F5F5;
+  }
+}
+@media (width >= 1024px) {
+  .about {
+    display: flex;
+    flex-direction: row !important;
+    padding: 5dvh 5dvh;
+  }
+  .about div {
+    flex: 1;
+  }
+  .about .our-history {
+    margin-right: 3dvh;
+  }
+}
+@media (width >= 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 3dvh;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .nav-list {
+    display: none !important;
+  }
+}
+main {
+  max-width: 1240px;
+  margin: auto;
+}
+main .about {
+  display: flex;
+  flex-direction: column;
+}
+main .about .our-history {
+  text-align: center;
+}
+main .about .our-history h2 {
+  margin-bottom: 3dvh;
+}
+main .about .our-history p {
+  line-height: 2rem;
+}
+main .about img {
+  filter: brightness(50%);
+}
+main .treatments {
+  display: flex;
+  flex-direction: column;
+}
+main .treatments h2 {
+  text-align: center;
+  margin: 5dvh 5dvh;
+}
+main .treatments .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main .treatments .grid .card {
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  border-radius: 2dvh;
+  overflow: hidden;
+}
+main .treatments .grid .card .card-img img {
+  filter: brightness(50%);
+  margin-bottom: 3dvh;
+  transition: transform 1s;
+}
+main .treatments .grid .card .card-img img:hover {
+  transform: scale(1.1);
+}
+main .treatments .grid .card .card-body {
+  text-align: center;
+}
+main .treatments .grid .card .card-body .card-title {
+  color: #D4AF37;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2dvh;
+}
+main .treatments .grid .card .card-body .card-description {
+  line-height: 2rem;
+}
+main .treatments .grid .card .card-body .card-btn {
+  background-color: #D4AF37;
+  border-radius: 2dvh;
+  border: none;
+  color: #F5F5F5;
+  width: 15dvh;
+  height: 5dvh;
+  margin-top: 3dvh;
+  transition: filter 1s;
+  margin-bottom: 3dvh;
+}
+main .treatments .grid .card .card-body .card-btn:hover {
+  filter: opacity(50%);
+}
+main .location {
+  display: flex;
+  flex-direction: column;
+}
+main .location h2 {
+  text-align: center;
+  margin: 5dvh 5dvh;
+}
+main .testimonials {
+  display: flex;
+  flex-direction: column;
+}
+main .testimonials h2 {
+  text-align: center;
+  margin: 5dvh 5dvh;
+}
+main .testimonials .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main .testimonials .grid .card {
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  border-radius: 2dvh;
+  overflow: hidden;
+}
+main .testimonials .grid .card .card-img img {
+  filter: brightness(50%);
+  margin-bottom: 3dvh;
+  transition: transform 1s;
+}
+main .testimonials .grid .card .card-img img:hover {
+  transform: scale(1.1);
+}
+main .testimonials .grid .card .card-body {
+  text-align: center;
+}
+main .testimonials .grid .card .card-body .card-title {
+  color: #D4AF37;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2dvh;
+}
+main .testimonials .grid .card .card-body .card-description {
+  line-height: 2rem;
+}/*# sourceMappingURL=main.css.map */

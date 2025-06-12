@@ -1,0 +1,41 @@
+@import '../styles/responsivity.scss';
+@import '../styles/variables.scss';
+
+footer {
+    background-color: $castanho;
+    margin-top: 5dvh;
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        .footer-icons {
+            margin: 3dvh 3dvh;
+
+            i {
+                transition: color 1s;
+                margin-right: 3dvh;
+            }
+        }
+
+        .logo {
+
+            i {
+                font-size: 1.5rem;
+            }
+
+            span {
+                font-size: 1.5rem;
+            }
+        }
+
+        .footer-info {
+            p {
+                color: $cinzaEscuro;
+                margin-top: 3dvh;
+            }
+        }
+    }
+}
